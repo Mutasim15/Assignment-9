@@ -1,0 +1,22 @@
+.name{
+    color: var(--Dark-01, #1A1919);
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.btn{
+    display: inline-flex;
+padding: 10px 28px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 5px;
+background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+color: #FFF;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}

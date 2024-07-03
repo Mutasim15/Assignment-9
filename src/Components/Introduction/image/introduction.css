@@ -1,0 +1,14 @@
+.header{
+    /* display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 10px 50px;
+    gap: 20px; */
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+  
+
+
+}
