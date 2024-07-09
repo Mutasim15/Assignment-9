@@ -1,0 +1,93 @@
+[
+    {
+      "_id": 1,
+      "logo": "https://example.com/logo1.png",
+      "title": "Frontend Developer",
+      "name": "Tech Company A",
+      "workType": "Full-Time",
+      "location": "Dhaka,Bangladesh",
+      "jobDescription": "Develop and maintain the user interface of web applications.",
+      "educationalRequirement": [
+        "Bachelor's degree in Computer Science, Information Technology, or related field",
+        "Relevant certifications in frontend technologies (optional)"
+      ],
+      "jobResponsibilities": [
+        "Develop and maintain the user interface",
+        "Optimize web pages for maximum speed and scalability",
+        "Ensure the technical feasibility of UI/UX designs",
+        "Collaborate with backend developers and web designers to improve usability",
+        "Create quality mockups and prototypes",
+        "Assist in maintaining the company's branding"
+      ],
+      "Experience":"2-3 years in this Field",
+      "salary": "30k-40k",
+      "email": "hr@techcompanyb.com",
+      "phone": "+8801234567891"
+    },
+    {
+      "_id": 2,
+      "logo": "https://example.com/logo2.png",
+      "title": "Backend Developer",
+      "name": "Tech Company B",
+      "workType": "Part-Time",
+      "location": "Chittagong,Bangladesh",
+      "jobDescription": "Develop and maintain server-side logic and integration.",
+      "educationalRequirement": [
+        "Bachelor's degree in Computer Science, Information Technology, or related field",
+        "Relevant certifications in backend technologies (optional)"
+      ],
+      "jobResponsibilities": [
+        "Develop and maintain server-side logic",
+        "Ensure high performance and responsiveness to requests from the frontend",
+        "Collaborate with frontend developers for seamless integration",
+        "Optimize applications for maximum speed and scalability",
+        "Implement data storage solutions"
+      ],
+      "Experience":"2-3 years in this Field",
+      "salary": "40k-60k",
+      "email": "hr@techcompanyc.com",
+      "phone": "+8801234567892"
+    },
+    {
+      "_id": 3,
+      "logo": "https://example.com/logo3.png",
+      "title": "Full Stack Developer",
+      "name": "Tech Company C",
+      "workType": "Contract",
+      "location": "Gazipur,Bangladesh",
+      "jobDescription": "Work on both the front-end and back-end of web applications.",
+      "educationalRequirement": [
+        "Bachelor's degree in Computer Science, Information Technology, or related field",
+        "Relevant certifications in full stack development (optional)"
+      ],
+      "jobResponsibilities": [
+        "Develop and maintain both front-end and back-end code",
+        "Ensure high performance and responsiveness",
+        "Collaborate with designers and other developers",
+        "Implement security and data protection",
+        "Manage hosting environment, including database administration"
+      ],
+      "Experience":"2-3 years in this Field",
+      "salary": "70k-80k",
+      "email": "hr@techcompanya.com",
+      "phone": "+8801234567890"
+    },
+    {
+      "_id": 4,
+      "logo": "https://example.com/logo4.png",
+      "title": "UI/UX Designer",
+      "name": "Design Company D",
+      "workType": "Full-Time",
+      "location": "Dhaka,Bangladesh",
+      "jobDescription": "Job Description: A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..",
+      "educationalRequirement": [
+        "Bachelor's degree in Graphic Design, UI/UX Design, or related field",
+        "Relevant certifications in UI/UX design (optional)"
+      ],
+      "jobResponsibilities": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "Experience":"2-3 years in this Field",
+      "salary": "70k-80k",
+      "email": "hr@designcompanyd.com",
+      "phone": "+8801234567893"
+    }
+  ]

@@ -1,0 +1,25 @@
+.h2{
+color: var(--Dark-01, #1A1919);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 32px; /* 200% */
+}
+.boundary{
+   
+    padding: 12px;
+    margin: 50px 20px 20px 80px;
+    width: 780px;
+    height: auto;
+
+}
+.cart{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin:  60px 10px 40px 0px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+}

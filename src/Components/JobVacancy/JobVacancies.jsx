@@ -6,21 +6,21 @@ const JobVacancies = () => {
         {
             id: 1,
             name: "Frontend Developer",
-            // icon: "img1",
+            icon: "../../Components/JobVacancy/images/frontend.png",
             designation: "Frontend Developer",
             availablePosts: "30 jobs available" 
         },
         {
             id: 2,
             name: "Backend Developer",
-            // icon: "backend.png",
+            icon: "../../Components/JobVacancy/images/backend.png",
             designation: "Backend Developer",
             availablePosts: "20 jobs available"
         },
         {
             id: 3,
             name: "Full Stack Developer",
-            // icon: "fullstack.png",
+            icon: "../../Components/JobVacancy/images/fullstack.png",
             designation: "Full Stack Developer",
             availablePosts: "40 jobs available"
         },

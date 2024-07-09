@@ -8,7 +8,14 @@ import {
 } from "react-router-dom";
 import Main from './Components/Layout/Main.jsx';
 import Blog from './Components/Blog/Blog.jsx';
-import JobDetails from './Components/JobDetails/JobDetails.jsx';
+import Jobdetails from './Components/Jodetails/Jobdetails.jsx';
+import Statistics from './Components/Statistics/Statistics.jsx';
+import Appliedjobs from './Components/Appliedjobs/Appliedjobs.jsx';
+
+
+
+
+// console.log(details)
 
 const router = createBrowserRouter([
   {
@@ -17,17 +24,31 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<App></App>
+        element:<App></App>,
+        loader:()=>fetch('chatgpt.json')
+    
       },
       {
         path:'/blog',
         element:<Blog></Blog>
-
       },
       {
-        path:'/jobdetails',
-        element:<JobDetails></JobDetails>
+        path:'jobdetail/:jobdetailId',
+        element:<Jobdetails></Jobdetails>,
+        loader:({params})=>fetch('chatgpt.json')
+        // loader:({params})=>fetch(`chatgpt.json/${params.jobdetailId}`)
+       
+      },
+      {
+        path:'/statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:'/applyjobs/:applyjobId',
+        element:<Appliedjobs></Appliedjobs>,
+        loader:({params})=> fetch('chatgpt.json')
       }
+     
     ]
   }
 ]);

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Job from '../Job/Job';
 
 const FeaturedJobs = () => {
+
     const jobs = [
         {
           id: 1,
@@ -69,8 +70,7 @@ const FeaturedJobs = () => {
                 ></Job>)
             }
         </div>
-        
-        <div className='text-center p-4'><button className='btn px-2'>See All</button></div>
+        <div className='text-center p-4'><button className='btn px-2'>See All Jobs</button></div>
         </>
     );
 };
